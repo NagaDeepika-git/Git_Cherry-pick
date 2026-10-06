@@ -11,3 +11,5 @@ elif choice.upper() == "F":
     fahrenheit = float(input("Enter Fahrenheit: "))
     celsius = (fahrenheit - 32) * 5/9
     print("Celsius:", round(celsius, 2))
+
+print("Thank you for using Temperature Converter!")
